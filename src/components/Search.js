@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
 import YTSLogo from "../images/logo-YTS.svg"
 import YTSSearch from "../searchAPIs/yts";
+import TPBLogo from "../images/logo-TPB.svg"
+import TPBSearch from "../searchAPIs/tpb";
 
 const Search = (props) =>{
 
@@ -10,6 +12,12 @@ const Search = (props) =>{
           name:"YTS",
           categories:["Movies"],
           component:(props)=>YTSSearch(props)
+      },
+      {
+          logo:TPBLogo,
+          name:"The Pirate Bay",
+          categories:["Movies","Shows"],
+          component:(props)=>TPBSearch(props)
       },
     ])
 
