@@ -4,6 +4,8 @@ I don't really know what I'm doing. First time working in GitHub, don't even kno
 
 I don't advocate for piracy. I'm just trying to learn a few things with this repo.
 
+The rest of the readme is from the original repo by ntoporcov.
+
 <img src="https://github.com/ntoporcov/iQbit/raw/master/src/images/logo_round.png" alt="iQbit logo" title="iQbit Logo" align="right" height="300" />
 
 # iQbit
