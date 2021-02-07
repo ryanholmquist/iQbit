@@ -32,6 +32,7 @@ const Search = (props) =>{
             {providers.map((item,key) =>
                 <button className={key===selectedProvider?"providerBox active":"providerBox"} key={key} onClick={()=>setSelectedProvider(key)}>
                     <img alt={"YTS Logo"} src={item.logo}/>
+                    <img alt={"TPB Logo"} src={item.logo}/>
                 </button>
             )}
         </div>
